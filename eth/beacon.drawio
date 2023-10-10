@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-10T03:40:46.746Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="Q09nDbd8tTpOCB_eDqMq" version="22.0.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-10-10T03:41:58.779Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="jGf0U8k_QS2JBKrR0wSS" version="22.0.4" type="github" pages="5">
   <diagram name="GetBeaconBlock" id="wS8osY54Nz1R1Sjlonv2">
     <mxGraphModel dx="1040" dy="1126" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -1177,7 +1177,7 @@
         </mxCell>
         <mxCell id="8rJOLeQK5zHmEgBgcfDp-33" value="response: payloadID, lastValidHash" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8rJOLeQK5zHmEgBgcfDp-32">
           <mxGeometry x="-0.5727" y="-2" relative="1" as="geometry">
-            <mxPoint x="-117" y="-50" as="offset" />
+            <mxPoint x="-70" y="-32" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8rJOLeQK5zHmEgBgcfDp-36" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="8rJOLeQK5zHmEgBgcfDp-35" target="8rJOLeQK5zHmEgBgcfDp-1">
@@ -1212,6 +1212,13 @@
         <mxCell id="5sq2vjy49DtgAdi6HFvc-2" value="rpc" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5sq2vjy49DtgAdi6HFvc-1">
           <mxGeometry x="-0.0011" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8YutUp7xKEAtXej7cIni-9" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1" source="8YutUp7xKEAtXej7cIni-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="600" as="sourcePoint" />
+            <mxPoint x="700" y="670" as="targetPoint" />
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
       </root>
