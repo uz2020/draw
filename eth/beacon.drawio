@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-10T03:03:25.167Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="6gZIyMxL579Dik1BZkHz" version="22.0.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-10-10T03:09:16.297Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="UEGBOp3sgSt7ZAtiOVOJ" version="22.0.4" type="github" pages="4">
   <diagram name="GetBeaconBlock" id="wS8osY54Nz1R1Sjlonv2">
     <mxGraphModel dx="1040" dy="1126" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -744,7 +744,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iRb7IxJLEg3VHzaru0zh-13" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="cFdaOJnT1zY-N8KKWXad-1" source="8B77je7VkZtWalyND1Sq-29" target="a-MtNZ8lElbiL9LkdIN9-4">
+        <mxCell id="iRb7IxJLEg3VHzaru0zh-13" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="cFdaOJnT1zY-N8KKWXad-1" source="8B77je7VkZtWalyND1Sq-29" target="a-MtNZ8lElbiL9LkdIN9-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="500" y="510" as="sourcePoint" />
             <mxPoint x="550" y="460" as="targetPoint" />
@@ -854,7 +854,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iRb7IxJLEg3VHzaru0zh-11" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="8B77je7VkZtWalyND1Sq-47" target="8B77je7VkZtWalyND1Sq-29">
+        <mxCell id="iRb7IxJLEg3VHzaru0zh-11" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="8B77je7VkZtWalyND1Sq-47" target="8B77je7VkZtWalyND1Sq-29">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="550" y="660" as="sourcePoint" />
             <mxPoint x="600" y="610" as="targetPoint" />
