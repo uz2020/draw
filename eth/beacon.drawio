@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-10T04:04:53.645Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="GNWzoCytEJa6uZrEWTsR" version="22.0.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-10-10T07:18:32.557Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="7p-SztR_xkVrxn3FDqFO" version="22.0.4" type="github" pages="7">
   <diagram name="GetBeaconBlock" id="wS8osY54Nz1R1Sjlonv2">
     <mxGraphModel dx="1040" dy="1126" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -1018,7 +1018,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Z0MbdYeXBKrX97uGnmgD" name="Received nil payload ID on VALID engine response">
-    <mxGraphModel dx="1040" dy="1126" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="784" dy="1126" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1319,6 +1319,187 @@
             <mxPoint x="570" y="720" as="sourcePoint" />
             <mxPoint x="620" y="670" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Hd46ANcu7gJ7sdqxToQQ" name="Beacon node is not respecting the follow distance">
+    <mxGraphModel dx="784" dy="1126" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ICugHqkagEqPl0Qxtegr" name="beacon reboot, validator error">
+    <mxGraphModel dx="1168" dy="1126" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="o-OWZAbpM1NKsUI3IXJh-4" value="&lt;h1&gt;Error&lt;/h1&gt;&lt;div&gt;ERROR validator: Failed to request block from beacon node blockSlot=11 error=rpc error: code = Unknown desc = could not build block in parallel: rpc error: code = Internal desc = Could not get local payload: nil payload with block hash: 0x7073b28129024253d363cf90194995079a0ec4cffe7f507a6dd9f4ffd65906fb pubKey=0x87c9f7605d07&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="840" width="480" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="o-OWZAbpM1NKsUI3IXJh-5" value="validator.Server" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="460" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="o-OWZAbpM1NKsUI3IXJh-6" value="BuildBlockParallel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="o-OWZAbpM1NKsUI3IXJh-5">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o-OWZAbpM1NKsUI3IXJh-7" value="getLocalPayloadAndBlobs" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="o-OWZAbpM1NKsUI3IXJh-5">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o-OWZAbpM1NKsUI3IXJh-8" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="o-OWZAbpM1NKsUI3IXJh-5">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o-OWZAbpM1NKsUI3IXJh-9" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="o-OWZAbpM1NKsUI3IXJh-5" source="o-OWZAbpM1NKsUI3IXJh-6" target="o-OWZAbpM1NKsUI3IXJh-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="210" as="sourcePoint" />
+            <mxPoint x="330" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-50" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o-OWZAbpM1NKsUI3IXJh-10" value="ExecutionEngineCaller" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="660" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="o-OWZAbpM1NKsUI3IXJh-11" value="GetPayload" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="o-OWZAbpM1NKsUI3IXJh-10">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o-OWZAbpM1NKsUI3IXJh-12" value="ForkchoiceUpdated" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="o-OWZAbpM1NKsUI3IXJh-10">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o-OWZAbpM1NKsUI3IXJh-13" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="o-OWZAbpM1NKsUI3IXJh-10">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o-OWZAbpM1NKsUI3IXJh-14" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="o-OWZAbpM1NKsUI3IXJh-7" target="o-OWZAbpM1NKsUI3IXJh-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="670" as="sourcePoint" />
+            <mxPoint x="840" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="790" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o-OWZAbpM1NKsUI3IXJh-43" value="1. payload ID cache hit" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="o-OWZAbpM1NKsUI3IXJh-14">
+          <mxGeometry x="-0.1765" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o-OWZAbpM1NKsUI3IXJh-25" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="o-OWZAbpM1NKsUI3IXJh-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="650" as="sourcePoint" />
+            <mxPoint x="1350" y="565" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o-OWZAbpM1NKsUI3IXJh-28" value="rpc" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="o-OWZAbpM1NKsUI3IXJh-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o-OWZAbpM1NKsUI3IXJh-29" value="request" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="540" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="o-OWZAbpM1NKsUI3IXJh-30" value="pid" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="o-OWZAbpM1NKsUI3IXJh-29">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o-OWZAbpM1NKsUI3IXJh-31" value="slot" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="o-OWZAbpM1NKsUI3IXJh-29">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o-OWZAbpM1NKsUI3IXJh-33" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="o-OWZAbpM1NKsUI3IXJh-11" target="o-OWZAbpM1NKsUI3IXJh-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="670" as="sourcePoint" />
+            <mxPoint x="840" y="620" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o-OWZAbpM1NKsUI3IXJh-35" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="o-OWZAbpM1NKsUI3IXJh-7" target="o-OWZAbpM1NKsUI3IXJh-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="810" y="670" as="sourcePoint" />
+            <mxPoint x="860" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="750" y="510" />
+              <mxPoint x="810" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o-OWZAbpM1NKsUI3IXJh-55" value="3. getpayload with payload ID" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="o-OWZAbpM1NKsUI3IXJh-35">
+          <mxGeometry x="0.0703" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o-OWZAbpM1NKsUI3IXJh-44" value="ProposerSlotIndexCache" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="360" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="o-OWZAbpM1NKsUI3IXJh-45" value="GetProposerPayloadIDs" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="o-OWZAbpM1NKsUI3IXJh-44">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o-OWZAbpM1NKsUI3IXJh-46" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="o-OWZAbpM1NKsUI3IXJh-44">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o-OWZAbpM1NKsUI3IXJh-47" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="o-OWZAbpM1NKsUI3IXJh-44">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o-OWZAbpM1NKsUI3IXJh-48" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="o-OWZAbpM1NKsUI3IXJh-5" target="o-OWZAbpM1NKsUI3IXJh-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="810" y="670" as="sourcePoint" />
+            <mxPoint x="860" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o-OWZAbpM1NKsUI3IXJh-49" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="o-OWZAbpM1NKsUI3IXJh-7" target="o-OWZAbpM1NKsUI3IXJh-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="810" y="670" as="sourcePoint" />
+            <mxPoint x="860" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="730" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o-OWZAbpM1NKsUI3IXJh-50" value="0" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="o-OWZAbpM1NKsUI3IXJh-49">
+          <mxGeometry x="0.4244" y="-10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o-OWZAbpM1NKsUI3IXJh-51" value="2. forkchoiceupdated get payload ID" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="o-OWZAbpM1NKsUI3IXJh-7" target="o-OWZAbpM1NKsUI3IXJh-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="810" y="670" as="sourcePoint" />
+            <mxPoint x="860" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="690" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o-OWZAbpM1NKsUI3IXJh-52" value="j" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="o-OWZAbpM1NKsUI3IXJh-51">
+          <mxGeometry x="0.0016" y="1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o-OWZAbpM1NKsUI3IXJh-56" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="o-OWZAbpM1NKsUI3IXJh-7" target="o-OWZAbpM1NKsUI3IXJh-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="730" as="sourcePoint" />
+            <mxPoint x="540" y="680" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o-OWZAbpM1NKsUI3IXJh-57" value="3.5. payloadID == nil" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="o-OWZAbpM1NKsUI3IXJh-56">
+          <mxGeometry x="0.1803" y="35" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o-OWZAbpM1NKsUI3IXJh-58" value="rpc forkchoiceupdated request" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="720" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="o-OWZAbpM1NKsUI3IXJh-59" value="HeadBlockHash" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="o-OWZAbpM1NKsUI3IXJh-58">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o-OWZAbpM1NKsUI3IXJh-60" value="SafeBlockHash" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="o-OWZAbpM1NKsUI3IXJh-58">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o-OWZAbpM1NKsUI3IXJh-61" value="FinalizedBlockHash" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="o-OWZAbpM1NKsUI3IXJh-58">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
