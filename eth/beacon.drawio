@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-10T10:13:20.959Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="ohDyqI1YkQZorWUVQ8K1" version="22.0.4" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-10-10T10:23:12.364Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="VG15x1_zOWfpTsnu2FUW" version="22.0.4" type="github" pages="10">
   <diagram name="GetBeaconBlock" id="wS8osY54Nz1R1Sjlonv2">
     <mxGraphModel dx="1040" dy="1126" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -2273,6 +2273,9 @@
         </mxCell>
         <mxCell id="bNBrk5U-0S3omAvLq0i6-77" value="&lt;h1&gt;GetProposerHead&lt;/h1&gt;&lt;div&gt;returns the block root that has to be used as ParentRoot by a proposer&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1095" y="430" width="225" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="bNBrk5U-0S3omAvLq0i6-78" value="&lt;h1&gt;UpdateHead&lt;/h1&gt;&lt;div&gt;updates the canonical head of the chain based on information from fork-choice attestations and votes&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="990" y="700" width="280" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
